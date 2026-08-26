@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class smallest_digit {
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,6 +19,5 @@ class smallest_digit {
         }
 
         System.out.println("Smallest digit is: " + smallest);
-        sc.close();
     }
 }
